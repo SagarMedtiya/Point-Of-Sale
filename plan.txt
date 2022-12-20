@@ -1,0 +1,17 @@
+[-] login
+
+[-] Menu
+
+[-] QR code on the table
+
+[-] Payment 
+
+[-] Bill
+
+[-] KOT
+
+[-] Table View
+
+[-] Inventory
+
+[-] 
