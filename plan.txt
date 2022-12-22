@@ -14,4 +14,26 @@
 
 [-] Inventory
 
-[-] 
+[-] Total sale of the day
+
+// Non functional
+[-] Application should work without internet(PWA)
+
+[-] Database ? Local (Service worker cache/redux)
+
+[-] Caching
+
+[-] Sync data with server Database
+
+[-] Installable(PWA)
+
+[-] Categorize the items
+
+
+
+//Tech Stack
+[+] TypeScript
+
+[+] React
+
+[+] Tailwind or Ant Design/MUI
