@@ -1,12 +1,29 @@
-import './App.css'
+import Table from "./components/Table"
+
+const tables = [   
+    {
+        id:1,
+        tableName:1,
+        status:'Available'
+    },
+    {
+        id:2,
+        tableName:2,
+        status:'Occupied'
+    },
+    {
+        id:3,
+        tableName:3,
+        status:'Occupied'  
+    }
+
+]
 
 function App() {
 
   return (
     <div className="App">
-        <h1 className="text-3xl font-bold underline">
-            Hello world!
-        </h1>
+        <Table />
     </div>
   )
 }
