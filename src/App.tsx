@@ -1,20 +1,21 @@
 import Table from "./components/Table"
+import { TABLE_STATUS } from "./enums"
 
 const tables = [   
     {
         id:1,
         tableNumber:1,
-        status:'Available'
+        status:TABLE_STATUS.AVAILABLE,
     },
     {
         id:2,
         tableNumber:2,
-        status:'Occupied'
+        status:TABLE_STATUS.OCCUPIED
     },
     {
-        id:3,
-        tableNumber:3,
-        status:'Occupied'  
+        id: 3,
+        tableNumber: 3,
+        status: TABLE_STATUS.OCCUPIED 
     }
 
 ]
