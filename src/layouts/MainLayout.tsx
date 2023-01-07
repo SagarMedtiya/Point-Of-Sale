@@ -3,7 +3,9 @@ import {Outlet} from 'react-router-dom'
 const MainLayout = () => {
   return (
     <div>
-        <aside>Sitebar</aside>
+        <aside>
+            <div>LOGO</div>
+        </aside>
         <main>
             <Outlet/>
         </main>
