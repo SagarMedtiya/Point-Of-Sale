@@ -2,8 +2,8 @@ import React from 'react'
 import {Link, Outlet} from 'react-router-dom'
 const MainLayout = () => {
   return (
-    <div>
-        <aside>
+    <div className="grid gap-4 grid-cols-2">
+        <aside className="w-16">
             <div>LOGO</div>
             <ul>
                 <li>
