@@ -2,8 +2,8 @@ import React from 'react'
 import {Link, Outlet} from 'react-router-dom'
 const MainLayout = () => {
   return (
-    <div className="grid gap-4 grid-cols-2">
-        <aside className="w-16">
+    <div className="flex gap-4">
+        <aside className="w-36 bg-slate-700 min-h-screen">
             <div>LOGO</div>
             <ul>
                 <li>
@@ -14,7 +14,7 @@ const MainLayout = () => {
                 </li>
             </ul>
         </aside>
-        <main>
+        <main className='w-3/4'>
             <Outlet/>
         </main>
         
